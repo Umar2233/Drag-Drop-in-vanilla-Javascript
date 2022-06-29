@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #000;
+}
+
+.App {
+    display: flex;
+    justify-content: center;
+
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+
+    padding: 20px;
+}
+
+.flexbox {
+    background-color: 	rgb(58, 52, 52);
+    width: 100%;
+    border-radius: 10px;
+    padding: 0 10px;
+}
+
+.flexbox>h1 {
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    margin-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid gray;
+}
+
+.cardContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+    padding: 20px;
+}
+
+.heading {
+    background-color: darkgray;
+    width: 100%;
+    padding: 10px 20px;
+    border-radius: 5px 5px 0 0;
+    font-size: 18px;
+    font-weight: bolder;
+    color: #fff;
+}
+
+.heading1 {
+    border-bottom: 3px solid lightyellow;
+}
+
+.heading2 {
+    border-bottom: 3px solid blue;
+}
+
+.heading3 {
+    border-bottom: 3px solid purple;
+}
+
+.heading4 {
+    border-bottom: 3px solid lightgreen;
+}
+.cardWrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    gap: 15px;
+}
+
+.board {
+    background-color: rgb(58, 52, 52);
+    width: 100%;
+    border-left: 1px solid gray;
+    border-right: 1px solid gray;
+    padding: 10px;
+}
+
+.card {
+    background-color: darkgray;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    color: #fff;
+    position: relative;
+} 
+
+.card1 {
+    border-bottom: 30px solid lightyellow;
+}
+
+.card2 {
+    border-bottom: 30px solid blue;
+}
+
+.card3 {
+    border-bottom: 30px solid purple;
+}
+
+.card4 {
+    border-bottom: 30px solid lightgreen;
+}
+
+.cardTitle {
+    padding: 10px;
+}
+
+.cardTitle>h1 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.reward {
+    display: flex;
+    gap: 45px;
+
+    position: absolute;
+    left: 10px;
+    bottom: -22px;
+
+    color: black;
+}
+
+.board-1 {
+    border-bottom: 30px solid lightyellow;
+}
+
+.board-2 {
+    border-bottom: 30px solid blue;
+}
+
+.board-3 {
+    border-bottom: 30px solid purple;
+}
+
+.board-4 {
+    border-bottom: 30px solid lightgreen;
+}
